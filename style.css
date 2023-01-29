@@ -1,0 +1,278 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: "Smythe", cursive;
+  color: #000000;
+  width: 600px;
+}
+
+header {
+  height: 167px;
+
+  background: url("images/acaeaea44c5e3a8cd7159c5d52f26662.jpg");
+  background-size: cover;
+  color: white;
+  background-position: center 65.5%;
+  background-repeat: no-repeat;
+  text-align: left;
+  margin-bottom: 67px;
+}
+header h1 {
+  margin: 0;
+
+  font-size: 39px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  display: inline-block;
+  margin-left: 46px;
+  margin-bottom: 20px;
+  margin-top: 46px;
+}
+header p {
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 0em;
+  margin: 0;
+  margin-left: 46px;
+}
+
+.item-inner {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.item-inner img {
+  margin-left: 40px;
+}
+.item-emoji {
+  height: 90px;
+  font-size: 79px;
+  font-weight: 400;
+  line-height: 98px;
+  letter-spacing: -0.02em;
+  margin-left: 50px;
+}
+.item-text {
+  font-family: Smythe;
+  text-align: left;
+  margin-left: 40px;
+}
+.item-name {
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: 0em;
+  margin-bottom: 8px;
+}
+.item-ingredients {
+  margin: 0;
+}
+.item-price {
+  margin-top: 8px;
+}
+.add-item {
+  height: 50px;
+  width: 50px;
+  left: 504px;
+  top: 242px;
+  border: 1.5px solid #dedede;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto 46px auto auto;
+
+  font-family: Inter;
+  font-size: 32px;
+  font-weight: 200;
+  line-height: 24px;
+}
+hr {
+  width: 500px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.your-order h3 {
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: 0em;
+  margin: 0;
+  margin-bottom: 60px;
+}
+.item,
+.total-price-text {
+  font-family: Smythe;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: 0em;
+}
+.price,
+.total-price {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+}
+.removeItem {
+  font-family: Verdana;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  color: #bbbbbb;
+}
+.your-order hr {
+  border: 2px solid #393333;
+  margin-top: 28px;
+  margin-bottom: 14px;
+}
+button {
+  box-shadow: 0px 1px 2px 0px #0000000d;
+  background: #16db99;
+  height: 60px;
+  width: 508px;
+  border-radius: 3px;
+  border: none;
+
+  font-family: Verdana;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0em;
+  color: #ffffff;
+}
+
+.total-price-div {
+  display: flex;
+  align-items: center;
+}
+
+.total-price-text {
+  margin: 0;
+  margin-left: 50px;
+}
+.total-price-div {
+  margin-bottom: 70px;
+}
+.hidden {
+  display: none;
+}
+ul {
+  text-decoration: none;
+  list-style: none;
+}
+ul li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+li .price {
+  margin: auto;
+}
+.price,
+.total-price {
+  margin: auto;
+}
+li .item {
+  margin: 0;
+  margin-left: 10px;
+}
+li .price {
+  margin-right: 60px;
+}
+.total-price {
+  margin-right: 60px;
+}
+
+.modal {
+  position: fixed;
+  height: 542.240478515625px;
+  width: 524px;
+  left: 38px;
+  top: 10px;
+  border-radius: 3.8899083137512207px;
+  border: 1.3px solid #757575;
+  box-shadow: 5.186544418334961px 5.186544418334961px 255.43731689453125px 0px
+    #00000080;
+  background: #ffffff;
+  border: none;
+  box-sizing: border-box;
+}
+.modal button {
+  height: 71px;
+  width: 475px;
+  border-radius: 3px;
+
+  font-size: 20px;
+
+  line-height: 31px;
+}
+.modal h1 {
+  margin: 0;
+  margin-top: 47px;
+  margin-bottom: 24px;
+}
+.modal input {
+  height: 71.30380249023438px;
+  width: 475.911376953125px;
+  border-radius: 3.8899083137512207px;
+  border: 1.3px solid #757575;
+  color: #757575;
+
+  padding: 16px 0 13px 26px;
+  box-sizing: border-box;
+  margin: 23px;
+}
+
+.order-complete {
+  height: 120px;
+  width: 504px;
+  background: #ecfdf5;
+  color: #065f46;
+  margin: auto;
+  border-radius: 3px;
+  font-family: Smythe;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: 0em;
+  text-align: left;
+  padding: 50px;
+  box-sizing: border-box;
+}
+.price {
+  margin: auto;
+}
+.user-experience-modal {
+  position: fixed;
+  height: 200px;
+  width: 524px;
+  left: 38px;
+  top: 110px;
+  border-radius: 3.8899083137512207px;
+  border: 1.3px solid #757575;
+  box-shadow: 5.186544418334961px 5.186544418334961px 255.43731689453125px 0px
+    #00000080;
+  background: #ffffff;
+  border: none;
+  box-sizing: border-box;
+}
+
+.user-experience-modal h1 {
+  margin: 0;
+  margin-top: 47px;
+  margin-bottom: 24px;
+}
+
+.fa-solid {
+  font-size: 22px;
+  color: gray;
+}
+.gold {
+  color: gold;
+}
