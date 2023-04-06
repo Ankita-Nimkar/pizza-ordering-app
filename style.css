@@ -286,3 +286,7 @@ li .price {
 .gold {
   color: gold;
 }
+.order-items-div{
+max-width: 550px;
+    margin: auto;
+}
