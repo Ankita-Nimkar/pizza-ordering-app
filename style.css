@@ -165,6 +165,9 @@ px
 }
 .total-price-div {
   margin-bottom: 70px;
+
+    max-width: 550px;
+    display: flex;
 }
 .hidden {
   display: none;
